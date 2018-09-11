@@ -1,0 +1,24 @@
+<mat-card>
+
+  <mat-card-header>
+    <mat-card-title>
+      {{ playerName }}
+    </mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+      <button mat-icon-button class="action-button" [disabled]="isHuman === 'false'"
+        (click)="play(0)" [ngClass]="{'selectedChoice': lastChoice === 0 }">
+        <i class="fa fa-hand-rock-o"></i>
+      </button>
+      <button mat-icon-button class="action-button" [disabled]="isHuman === 'false'"
+        (click)="play(1)" [ngClass]="{'selectedChoice': lastChoice === 1 }">
+        <i class="fa fa-hand-paper-o"></i>
+      </button>
+      <button mat-icon-button class="action-button" [disabled]="isHuman === 'false'"
+        (click)="play(2)" [ngClass]="{'selectedChoice': lastChoice === 2 }">
+        <i class="fa fa-hand-scissors-o"></i>
+      </button>
+  </mat-card-content>
+
+</mat-card>

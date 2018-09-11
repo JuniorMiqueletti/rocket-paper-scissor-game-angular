@@ -1,0 +1,14 @@
+.mat-toolbar-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shortcut {
+  display: flex;
+}
+
+.shortcut a {
+  padding-left: 10px;
+  color: white;
+}
