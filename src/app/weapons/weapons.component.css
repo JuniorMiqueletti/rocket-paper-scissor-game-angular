@@ -1,0 +1,27 @@
+mat-card-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mat-icon-button[disabled] {
+  opacity: 0;
+  transition: 0.5s all;
+}
+
+.mat-icon-button[disabled].selectedChoice {
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.action-button {
+  width: 80px;
+  height: 80px;
+  font-size: 5em;
+  transition: 0.5s all;
+}
+
+.selectedChoice{
+  color: red;
+  transition: 0.5s all;
+}
+ 

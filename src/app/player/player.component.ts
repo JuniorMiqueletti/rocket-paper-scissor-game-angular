@@ -1,6 +1,6 @@
-import { BotService } from './../bot.service';
-import { GameService } from './../game.service';
 import { Component, OnInit, Input } from '@angular/core';
+
+import { GameService } from './../game.service';
 
 @Component({
   selector: 'app-player',
@@ -8,9 +8,6 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./player.component.css']
 })
 export class PlayerComponent implements OnInit {
-
-  @Input() isHuman = false;
-  @Input() playerName: string;
   lastChoice: number;
 
   constructor(

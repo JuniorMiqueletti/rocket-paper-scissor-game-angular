@@ -1,0 +1,14 @@
+<mat-card-content>
+  <button mat-icon-button class="action-button" [disabled]="weaponsShouldBeDisabled()"
+    (click)="emitChoice(0)" [ngClass]="{'selectedChoice': choiceInput === 0 }">
+    <i class="fa fa-hand-rock-o"></i>
+  </button>
+  <button mat-icon-button class="action-button" [disabled]="weaponsShouldBeDisabled()"
+    (click)="emitChoice(1)" [ngClass]="{'selectedChoice': choiceInput === 1 }">
+    <i class="fa fa-hand-paper-o"></i>
+  </button>
+  <button mat-icon-button class="action-button" [disabled]="weaponsShouldBeDisabled()"
+    (click)="emitChoice(2)" [ngClass]="{'selectedChoice': choiceInput === 2 }">
+    <i class="fa fa-hand-scissors-o"></i>
+  </button>
+</mat-card-content>

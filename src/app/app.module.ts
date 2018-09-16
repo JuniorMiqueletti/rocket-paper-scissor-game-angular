@@ -10,13 +10,17 @@ import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { PlayerComponent } from './player/player.component';
 import { ScoreComponent } from './score/score.component';
+import { WeaponsComponent } from './weapons/weapons.component';
+import { BotPlayerComponent } from './bot-player/bot-player.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     PlayerComponent,
-    ScoreComponent
+    ScoreComponent,
+    WeaponsComponent,
+    BotPlayerComponent
   ],
   imports: [
     BrowserModule,

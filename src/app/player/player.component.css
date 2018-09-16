@@ -1,18 +1,3 @@
-mat-card-content {
-  display: flex;
-  justify-content: space-around;
-}
-
 .mat-card-title {
   font-size: 3em;
-}
-
-.action-button {
-  width: 80px;
-  height: 80px;
-  font-size: 5em;
-}
-
-.selectedChoice{
-  color: red;
 }

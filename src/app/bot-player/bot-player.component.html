@@ -1,14 +1,12 @@
 <mat-card>
-
   <mat-card-header>
     <mat-card-title>
-      You
+        Jarvis Bot
     </mat-card-title>
   </mat-card-header>
-
   <mat-card-content>
-    <app-weapons (choiceOutput)="play($event)">
+    <app-weapons [choiceNotClickable]="true" [choiceInput]="lastChoice">
     </app-weapons>
   </mat-card-content>
-
 </mat-card>
+  
